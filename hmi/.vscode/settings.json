@@ -1,0 +1,21 @@
+{
+    "files.associations": {
+        "lvgl.h": "c",
+        "gui_guider.h": "c",
+        "widgets_init.h": "c",
+        "events_init.h": "c",
+        "stdio.h": "c",
+        "evdev.h": "c",
+        "sys.h": "c",
+        "pthread.h": "c",
+        "custom.h": "c",
+        "sys_func.h": "c",
+        "sys_protocol_interface.h": "c",
+        "rdb_dispatch.h": "c",
+        "rdb_define.h": "c",
+        "hmi_updata.h": "c",
+        "sys_define.h": "c"
+    },
+    "Codegeex.RepoIndex": true,
+    "cmake.ignoreCMakeListsMissing": true
+}

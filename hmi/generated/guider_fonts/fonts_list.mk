@@ -1,0 +1,1 @@
+CSRCS += lv_font_A65_16.c lv_font_montserratMedium_16.c lv_font_A65_14.c lv_font_montserratMedium_12.c lv_font_black_16.c

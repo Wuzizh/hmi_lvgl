@@ -1,0 +1,24 @@
+# make file
+CC = arm-linux-gnueabihf-gcc
+
+EXEC1   = rtcomm
+
+OBJS1   = hmi_updata.o\
+          main.o
+CFLAGS  = -I./include 
+
+include ./hmi/lvgl.mk
+
+all: $(EXEC1)
+$(EXEC1) : $(OBJS1)
+	$(CC) -o $(EXEC1) $(OBJS1) ./lib/librtcomm.a ./lib/libcomm_lib.a -lpthread -lm
+
+
+hmi_updata.o : hmi_updata.c
+	$(CC) -c -o hmi_updata.o hmi_updata.c $(CFLAGS)
+	
+main.o : main.c
+	$(CC) -c -o main.o main.c $(CFLAGS)
+
+clean:
+	rm -f *.o

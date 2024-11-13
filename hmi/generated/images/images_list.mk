@@ -1,0 +1,1 @@
+CSRCS += _xt_alpha_55x55.c _dz_alpha_60x60.c _telemetry_alpha_55x55.c _yk_alpha_60x60.c _yx_alpha_55x55.c _yc_alpha_60x60.c
